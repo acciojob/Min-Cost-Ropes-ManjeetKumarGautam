@@ -4,9 +4,6 @@ function mincost(arr)
 // return the min cost
 
 	let totalCost=0;
-	
-	let firstMin=0;
-	let secondMin=0;
 
 	while(arr.length>1){
 		arr.sort();
